@@ -1,0 +1,14 @@
+#input {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    float: left;
+}
+
+#a {
+    float: right;
+}
