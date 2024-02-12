@@ -1,14 +1,73 @@
-#input {
-    display: flex;
-    flex-direction: column;
-}
+/* Atur ulang margin dan padding */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+  /* Batasi lebar container */
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* Atur gaya form */
+  #form1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+  }
 
-a {
-    text-decoration: none;
-    display: flex;
-    float: left;
-}
+ .input-container{
+    margin-bottom: 20px;
+ }
 
-#a {
-    float: right;
-}
+  /* Atur gaya label */
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Atur gaya input */
+  .form-control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Atur gaya tombol */
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Atur gaya textarea */
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Atur gaya section cara kalkulasi */
+  .cara-kalkulasi {
+    margin-top: 20px;
+  }
+  
+  /* Atur gaya tambahan */
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  button {
+    border: 1px solid ;
+    border-radius: 2px;
+  }
+ 
